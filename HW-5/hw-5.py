@@ -1,7 +1,7 @@
 with open("text.txt", "a", encoding="utf-8") as f: 
      print("Введите латинские слова.") 
      w=input() 
-     if wgfds=="": 
+     if w=="": 
       print("Вы ничего не ввели.")
      else: 
       while w!="": 
