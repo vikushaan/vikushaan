@@ -11,4 +11,7 @@ with open("text.txt", "a", encoding="utf-8") as f:
          if w.endswith("ri"):
              f.write(w)
              f.write("\n")
+         if w.endswith("isse"):
+             f.write(w)
+             f.write("\n")
          w=input()
